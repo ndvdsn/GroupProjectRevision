@@ -68,7 +68,7 @@ class SingleBookingUpdateContainer extends React.Component{
   render(){
     return(
       <div className="booking-container">
-      <h1> Update Booking </h1>
+      <h3> Update Booking </h3>
       <SingleBookingUpdateForm
       booking={this.state.booking}
       customers = {this.state.customers}

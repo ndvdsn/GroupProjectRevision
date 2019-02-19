@@ -72,7 +72,7 @@ a.single-customer-link, a.single-booking{
 
 
 ul{
-  margin-top: 20px;
+  margin-top: 7px;
   padding: 0;
 }
 
@@ -105,19 +105,19 @@ input{
 }
 h1 {
   background-color: grey;
-  margin-top:10px;
-  margin-bottom:10px;
-  padding: 10px;
-  display: inline-table;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding: 5px;
+  display: flex;
   justify-content: flex-start;
   /* background-position: left; */
   border: 2px black solid;
   margin: auto;
-  width: 25%;
+  width: 400px;
 }
 
 h3{
-  background-color: #064CF7;
+  background-color: grey;
   margin-top:10px;
   margin-bottom:10px;
   padding: 5px;
@@ -126,7 +126,7 @@ h3{
   /* background-position: left; */
   border: 2px black solid;
   margin: auto;
-  width: 25%;
+  width: 400px;
 }
 
 
@@ -191,7 +191,17 @@ div .single-table, label{
 label{
   text-align: center;
   font-family:  Helvetica, sans-serif;
-  font-size: xx-large;
+  font-size: medium;
+  background-color: grey;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  /* background-position: left; */
+  border: 2px black solid;
+  margin: auto;
+  width: 400px;
 }
 
 .single-container{
@@ -263,6 +273,7 @@ div.component{
 button.btn.btn-danger.btn-sm.w-2{
   width:100%;
   margin:auto;
+  background-color: magenta;
 }
 
 div.single-booking-update-container{
@@ -280,6 +291,7 @@ div.booking-options{
 input.btn{
   background-color: #17a2b8;
   color:white;
+  background-color: magenta;
 }
 form{
   display: flex;
@@ -315,6 +327,7 @@ header{
 .btn{
   display: flex;
   margin:auto;
+  background-color: magenta;
 }
 
 .update-box
@@ -342,6 +355,7 @@ header{
 button.btn.btn-danger.btn-sm.w-2 {
     width: 50%;
     margin: auto;
+    background-color: magenta;
 }
 /* button.btn.btn-info.m-2{
     width: 50%;
@@ -349,6 +363,7 @@ button.btn.btn-danger.btn-sm.w-2 {
 } */
 .btns{
   display:flex;
+  background-color: magenta;
 }
 form.update-container{
   display: block;

@@ -41,7 +41,7 @@ handleDateChange(date){
     return(
 
       <div className = "booking-container">
-      <h1> Bookings </h1>
+      <h3> Bookings: filter by date </h3>
       <BookingFilterForm handleDateChange = {this.handleDateChange}/>
       <BookingList bookings = {this.state.bookings}/>
     </div>

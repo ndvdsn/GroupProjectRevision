@@ -21,7 +21,7 @@ class TableContainer extends React.Component{
   render(){
     return (
       <>
-      <h1> Tables </h1>
+      <h3> Tables </h3>
       <div className = "restTable-container">
       <TableList className="table-tables"restTables = {this.state.restTables}/>
 

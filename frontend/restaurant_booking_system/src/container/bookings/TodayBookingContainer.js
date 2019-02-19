@@ -59,7 +59,7 @@ handleDateChange(date){
     return(
 
       <div className = "booking-container">
-      <h1> Today's Bookings </h1>
+      <h3> Today's Bookings </h3>
       <BookingList bookings = {this.state.bookings}/>
     </div>
 
