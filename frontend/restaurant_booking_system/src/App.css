@@ -53,8 +53,8 @@ li{
 
 
 .single-customer, .single-booking-container, .single-booking-container{
-  background-color: #064CF7;
-  border: 2px solid #white;
+  /* background-color: pink; */
+  border: 2px solid white;
   margin: auto;
   width:80%;
   /* border-radius: 40px; */
@@ -103,26 +103,60 @@ input{
   margin: 20px;
   width: 200px;
 }
-h1, h3{
-  background-color: #064CF7;
+h1 {
+  background-color: grey;
   margin-top:10px;
   margin-bottom:10px;
-  display: flex;
-  justify-content: left;
+  padding: 10px;
+  display: inline-table;
+  justify-content: flex-start;
   /* background-position: left; */
   border: 2px black solid;
   margin: auto;
-  width: 80%;
+  width: 25%;
 }
+
+h3{
+  background-color: #064CF7;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  /* background-position: left; */
+  border: 2px black solid;
+  margin: auto;
+  width: 25%;
+}
+
+
+
+/*
 h3{
   padding: 5px;
-}
+} */
 
 .booking-container{
   margin:20px;
   padding:10px;
   text-align: left;
   color: white;
+  border: 2px white solid;
+}
+
+.booking-inner{
+background-color: #F4E8F0;
+padding: 10px;
+/* display: inline; */
+width: 100%;
+font-size: medium;
+color: black;
+
+
+}
+
+p {
+  font-size: medium;
 }
 
 .table-tables{
