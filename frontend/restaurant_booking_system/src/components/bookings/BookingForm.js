@@ -28,9 +28,10 @@ const BookingForm = (props) => {
   return(
 
     <form className="container" onSubmit = {handleSubmit}>
-      <label htmlFor="date">Date & Time</label>
+      <label htmlFor="date">Select Date & Time</label>
       <div className="booking-options">
       <input className="m-4 border rounded" type="datetime-local" placeholder = "date" name = "date" required/>
+      <label htmlFor="customer">Select Customer</label>
       <select className="m-4 border rounded" name = "customer">
         {customerOptions}
       </select>
